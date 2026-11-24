@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All projects by Teranox Group - residential and commercial work">
+    <title>Projects | Teranox Group</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+<header class="header">
+    <div class="container nav-container">
+
+        <a href="index.html#home" class="logo">
+            <span class="logo-icon">TX</span>
+            TERANOX<span>GROUP.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="navMenu">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services">Services</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="index.html#contact" class="nav-contact">Let's Talk ↗</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / Projects
+        </div>
+        <h1>ALL <span>PROJECTS.</span></h1>
+        <p>
+            Residential and commercial work, from the first sketch
+            to the final handover.
+        </p>
+    </div>
+</section>
+
+<section class="projects-page">
+    <div class="container">
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="residential">Residential</button>
+            <button class="filter-btn" data-filter="commercial">Commercial</button>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card" data-category="residential">
+                <div class="project-image image-one">
+                    <span class="project-tag">RESIDENTIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Modern Residence</h3>
+                        <p>Architecture / Construction</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="commercial">
+                <div class="project-image image-two">
+                    <span class="project-tag">COMMERCIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Urban Business Center</h3>
+                        <p>Commercial / Engineering</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="residential">
+                <div class="project-image image-three">
+                    <span class="project-tag">RESIDENTIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Hillside Villa</h3>
+                        <p>Architecture / Construction</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="commercial">
+                <div class="project-image image-four">
+                    <span class="project-tag">COMMERCIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Office Tower</h3>
+                        <p>Engineering / Construction</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="residential">
+                <div class="project-image image-five">
+                    <span class="project-tag">RESIDENTIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Family Apartments</h3>
+                        <p>Architecture / Construction</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="commercial">
+                <div class="project-image image-six">
+                    <span class="project-tag">COMMERCIAL</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Retail Plaza</h3>
+                        <p>Commercial / Engineering</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="cta section" id="contact">
+    <div class="container cta-content">
+        <span class="section-label">LET'S BUILD SOMETHING GREAT</span>
+        <h2>HAVE A PROJECT<br>IN <span>MIND?</span></h2>
+        <a href="mailto:hello@example.com" class="btn btn-primary">
+            Start a Conversation ↗
+        </a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">TX</span>
+            TERANOX<span>GROUP.</span>
+        </a>
+
+        <p>© <span id="year"></span> Teranox Group. All rights reserved.</p>
+
+        <a href="#top">Back to top ↑</a>
+    </div>
+</footer>
+
+<div class="image-modal" id="imageModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">
+        &times;
+    </button>
+
+    <img src="" alt="Project preview" id="modalImage">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
