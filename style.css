@@ -835,10 +835,10 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.project-image.image-three { background: url("image/image1-villa.jpg") center / cover no-repeat;}
-.project-image.image-four  { background: url("image/image2-t2.jpg") center / cover no-repeat;}
+.project-image.image-three { background: url("images/image1-villa.jpg") center / cover no-repeat;}
+.project-image.image-four  { background: url("images/image2-t2.jpg") center / cover no-repeat;}
 .project-image.image-five  { background: linear-gradient(135deg, #33281f, #6a4a32); }
-.project-image.image-six   { background: url("image/image3-all.jpg") center / cover no-repeat;}
+.project-image.image-six   { background: url("images/image3-all.jpg") center / cover no-repeat;}
 
 @media (max-width: 900px) {
   .projects-page .projects-grid {
