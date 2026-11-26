@@ -1,0 +1,23 @@
+TERANOX TEMPLATE — SAMPLE COMMERCIAL LICENSE
+
+Copyright (c) 2026, TERANOX template owner. All rights reserved.
+
+IMPORTANT: This file is a practical starting-point license template, not legal advice. Have it reviewed for the country and marketplace where you sell the product. Replace the owner/contact details before distribution.
+
+STANDARD LICENSE (one end product)
+The purchaser receives a non-exclusive, non-transferable license to use and modify this template for one website/end product, including one website for the purchaser or one client. The purchaser may publish the resulting website.
+
+RESTRICTIONS
+- The source template, in original or substantially unchanged form, may not be resold, sublicensed, redistributed, shared, or included in another template or competing product.
+- The purchaser may not claim authorship or ownership of the original template.
+- Third-party assets remain subject to their own licenses.
+- The purchaser is responsible for replacing demo content and ensuring rights to all content used on the published website.
+
+EXTENDED / MULTI-CLIENT USE
+Use for multiple client websites, agency-wide use, or redistribution as part of a larger paid product requires a separate written extended license from the template owner.
+
+SUPPORT AND REFUNDS
+Support, updates, refund terms, and delivery terms should be stated separately on the sales page and must comply with applicable law and marketplace rules.
+
+LICENSE CONTACT
+Replace this line with the seller's official contact email before selling.

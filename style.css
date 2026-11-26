@@ -425,15 +425,11 @@ a {
 
 
 .image-one {
-    background:
-        url("https://www.costaprivee.com/objetos/temp/source/dystrito/759590/olena_605_ultra_modern_luxury_villa_in_Dnia_Spain_minimalisti_4711b0db_964d_4d2d_82d3_6a17f3ec97b8_0_jpeg.jpeg")
-        center / cover no-repeat;
+    background: url("images/image1-villa.jpg") center / cover no-repeat;
 }
 
 .image-two {
-    background:
-        url("https://sppsconstructionindiapvtltd.com/images/images/service/1.jpg")
-        center / cover no-repeat;
+    background: url("images/image2-t2.jpg") center / cover no-repeat;
 }
 
 
@@ -858,4 +854,24 @@ a {
   .projects-page .projects-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* TERANOX PRO refinements */
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+.project-image { background-position: center; background-size: cover; background-repeat: no-repeat; }
+@media (max-width: 760px) {
+  .hero { min-height: 650px; }
+  .hero-content { align-items: flex-start; padding-top: 72px; padding-bottom: 100px; }
+  .hero-number { display: none; }
+  .hero h1 { letter-spacing: -2.5px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid, .projects-grid, .projects-page .projects-grid { grid-template-columns: 1fr; }
+  .section-heading { gap: 20px; align-items: flex-start; flex-direction: column; }
+}
+@media (max-width: 380px) {
+  .logo { font-size: 15px; }
+  .hero h1 { font-size: 43px; }
+  .hero-buttons .btn { width: 100%; }
+  .hero-bottom-inner { font-size: 8px; letter-spacing: .5px; }
 }

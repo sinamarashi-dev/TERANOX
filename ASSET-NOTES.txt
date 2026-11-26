@@ -1,0 +1,6 @@
+Asset notes for the commercial template build
+
+- The two remote project photo URLs in the original stylesheet were removed and replaced with local template images.
+- The three bundled local photographs were identified by the template owner as their own.
+- Verify image and font usage rights before commercial distribution. Google Fonts Inter is loaded externally.
+- The project at index 5 uses a CSS gradient placeholder rather than a photograph.
